@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 #membaca model
-diabetes_model = pickle.load(open('dp_model.sav', 'rb'))
+diabetes_model = pickle.load(open('dp_model1.sav', 'rb'))
 
 #judul WEB
 st.title('Aplikasi Prediksi Penyakit Diabetes')
